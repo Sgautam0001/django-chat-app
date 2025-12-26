@@ -19,10 +19,9 @@
 
     <body>
     {% block body %}
-        <div class="section blue lighten-3">
+        <div class="section gray lighten-3" style="background-color: gray">
             <div class="container white-text center-align text">
-            <h2>A special Chat for Khidmah IT.</h2>
-            <p>A Chatting App.</p>
+            <h2>A Simple Chat Application Using Django</h2>
             </div>
         </div>
         <div class="container">
@@ -50,11 +49,11 @@
                         </div>
                         <div class="row">
                             <div class="col s8">
-                                <a href="{% url 'register' %}">Register</a>
+                                <a href="{% url 'register' %}" style="color: gray">Register</a>
                             </div>
                             <div class="col s4">
                             <div class="right">
-                                <button class="btn blue waves-effect waves-light pull-s12">Login</button>
+                                <button class="btn waves-effect waves-light pull-s12" style="background-color: gray">Login</button>
                             </div>
                             </div>
                         </div>
